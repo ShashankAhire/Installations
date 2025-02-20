@@ -1,0 +1,11 @@
+yum install -y docker
+service docker start
+systemctl enable docker
+
+
+docker run -d --name sonarqube -p 9000:9000 sonarqube
+
+access using <Sonar instance public IP>:9000
+
+id - admin
+pass - admin
