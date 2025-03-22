@@ -40,3 +40,16 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 **Install all the suggested plugin**
 
 **create first admin user and password**
+
+Shashank Steps :- 
+
+## After Logging in to Jenkins **We Need To Bring Node Online**
+a. Go to "Dashboard > Manage Jenkins > Nodes >Configure Node Monitors"
+b.Under "Free Disk Space"
+    -Set "Free Space Threshold" 0 and "Free Space Warning Threshold" 0, Also tick "Don't mark agents temporarily offline"
+c.Under "Free Temp Space"
+    -Set "Free Space Threshold" 0 and "Free Space Warning Threshold" 0, Also tick "Don't mark agents temporarily offline"
+    -Click Save & Apply
+d. Go to "Dashboard > Manage Jenkins > Nodes"
+    - Select "Built-in-Node" & click on "Bring this node back online"
+
