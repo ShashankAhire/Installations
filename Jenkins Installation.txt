@@ -53,3 +53,26 @@ c.Under "Free Temp Space"
 d. Go to "Dashboard > Manage Jenkins > Nodes"
     - Select "Built-in-Node" & click on "Bring this node back online"
 
+## Where To Change Jenkins URL 
+a. Go to Dashboard > Manage Jenkins > System
+b. Scroll and look for 
+Jenkins Location
+Jenkins URL 
+  -copy paste new URL here
+
+
+
+## Plugings Required for Pipeline 
+a.Go to Dashboard > Manage Jenkins > Plugins 
+b.Click on available plugins
+c. Choose 
+        -Pipeline: REST APIVersion
+        -Pipeline Utility Steps
+        -SSH Pipeline Steps
+d.Click Install
+NOTE - You need to do Hit & Trail for plugins 
+
+
+
+
+
